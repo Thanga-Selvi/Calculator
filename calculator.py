@@ -68,7 +68,7 @@ def main():
 
                 operation = parts[0].lower()
                 try:
-                    num = float(parts[1])
+                    num = int(parts[1])
                 except ValueError:
                     print("Invalid number entered.")
                     continue
